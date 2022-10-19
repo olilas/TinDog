@@ -1,0 +1,178 @@
+body{
+    font-family: "Montserrat";
+}
+h1 {
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size:3rem;
+    line-height: 1.5;
+}
+   
+
+h3{
+    font-family: "Montserrat-Bold";
+    font-size:1.5;
+}
+p{
+    color:#8f8f8f;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+/*nav-bar*/
+.container-fluid {
+    padding: 2% 15%;
+   
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:#fff;
+   
+}
+.navbar{
+    padding-bottom: 2.5rem;
+  
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color:white;
+}
+/*download button*/
+
+.download-btn{
+    margin: 2% 3% 2% 0;
+}
+/*title-image*/
+
+.iphone-img {
+
+    transform: rotate(15deg);
+    width:20%; 
+    position: absolute;  
+    right:20%; 
+    top:8%; 
+
+   
+}
+
+/*features section*/
+#features{
+    padding: 3% 10%;
+    position: relative;
+
+     
+}
+.white-section{
+    background-color: #fff;
+}
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.icons-features {
+    font-size: 50px;
+    color: #ef8172;
+    justify-items: center;
+    padding: 10%;
+}
+
+.icons-features:hover {
+    color: #ff4c68;
+}
+/*testimonial Section*/
+#testimonials{
+background-color: #ef8172;
+text-align: center;
+color:#fff;
+padding: 2% 10%;
+
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-image{
+    width:15%;
+    margin:20px 20px 50px ;
+
+}
+/*pricing-section*/
+#pricing{
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+
+}
+/*cta*/
+#cta{
+background-color: #ff4c68;
+color: #fff;
+padding: 7% 15%;
+text-align: center;
+}
+.cta-header{
+    font-family:'Montserrat-Black' ;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+padding: 2% 15%;
+text-align: center;
+}
+.social-icon{
+    font-size: 30px;
+    color: #ff4c68;
+    padding: 3%;
+}
+.social-icon:hover{
+    font-size: 45px;
+}
+
+
+@media (max-width:1028px) {
+
+    #title{
+        text-align: center;
+    }
+
+
+    .iphone-img{
+        position: static;
+        width:50%;
+        transform: rotate(0);
+
+    }
+}
